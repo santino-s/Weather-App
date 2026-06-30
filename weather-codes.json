@@ -1,0 +1,283 @@
+{
+	"0":{
+		"day":{
+			"description":"Sunny",
+			"image":"https://api.iconify.design/meteocons:clear-day-fill.svg"
+		},
+		"night":{
+			"description":"Clear",
+			"image":"https://api.iconify.design/meteocons:clear-night-fill.svg" 
+		}
+	},
+	"1":{
+		"day":{
+			"description":"Mainly Sunny",
+			"image":"https://api.iconify.design/meteocons:clear-day-fill.svg"
+		},
+		"night":{
+			"description":"Mainly Clear",
+			"image":"https://api.iconify.design/meteocons:clear-night-fill.svg" 
+		}
+	},
+	"2":{
+		"day":{
+			"description":"Partly Cloudy",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-day-fill.svg" 
+		},
+		"night":{
+			"description":"Partly Cloudy",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-night-fill.svg" 
+		}
+	},
+	"3":{
+		"day":{
+			"description":"Cloudy",
+			"image":"https://api.iconify.design/meteocons:overcast-day-fill.svg" 
+		},
+		"night":{
+			"description":"Cloudy",
+			"image":"https://api.iconify.design/meteocons:overcast-night-fill.svg" 
+		}
+	},
+	"45":{
+		"day":{
+			"description":"Foggy",
+			"image":"https://api.iconify.design/meteocons:fog-day-fill.svg" 
+		},
+		"night":{
+			"description":"Foggy",
+			"image":"https://api.iconify.design/meteocons:fog-night-fill.svg"
+		}
+	},
+	"48":{
+		"day":{
+			"description":"Rime Fog",
+			"image":"https://api.iconify.design/meteocons:fog-day-fill.svg" 
+		},
+		"night":{
+			"description":"Rime Fog",
+			"image":"https://api.iconify.design/meteocons:fog-night-fill.svg"
+		}
+	},
+	"51":{
+		"day":{
+			"description":"Light Drizzle",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-day-drizzle-fill.svg" 
+		},
+		"night":{
+			"description":"Light Drizzle",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-night-drizzle-fill.svg" 
+		}
+	},
+	"53":{
+		"day":{
+			"description":"Drizzle",
+			"image":"https://api.iconify.design/meteocons:drizzle-fill.svg" 
+		},
+		"night":{
+			"description":"Drizzle",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-night-drizzle-fill.svg" 
+		}
+	},
+	"55":{
+		"day":{
+			"description":"Heavy Drizzle",
+			"image":"https://api.iconify.design/meteocons:overcast-drizzle-fill.svg"
+		},
+		"night":{
+			"description":"Heavy Drizzle",
+			"image":"https://api.iconify.design/meteocons:overcast-night-drizzle-fill.svg" 
+		}
+	},
+	"56":{
+		"day":{
+			"description":"Light Freezing Drizzle",
+			"image":"https://api.iconify.design/meteocons:extreme-day-drizzle-fill.svg"
+		},
+		"night":{
+			"description":"Light Freezing Drizzle",
+			"image":"https://api.iconify.design/meteocons:extreme-night-drizzle-fill.svg"
+		}
+	},
+	"57":{
+		"day":{
+			"description":"Freezing Drizzle",
+			"image":"https://api.iconify.design/meteocons:extreme-drizzle-fill.svg"
+		},
+		"night":{
+			"description":"Freezing Drizzle",
+			"image":"https://api.iconify.design/meteocons:extreme-night-drizzle-fill.svg"
+		}
+	},
+	"61":{
+		"day":{
+			"description":"Light Rain",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-day-rain-fill.svg" 
+		},
+		"night":{
+			"description":"Light Rain",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-night-rain-fill.svg"
+		}
+	},
+	"63":{
+		"day":{
+			"description":"Rain",
+			"image":"https://api.iconify.design/meteocons:overcast-rain-fill.svg" 
+		},
+		"night":{
+			"description":"Rain",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-night-rain-fill.svg"
+		}
+	},
+	"65":{
+		"day":{
+			"description":"Heavy Rain",
+			"image":"https://api.iconify.design/meteocons:extreme-rain-fill.svg" 
+		},
+		"night":{
+			"description":"Heavy Rain",
+			"image":"https://api.iconify.design/meteocons:extreme-night-rain-fill.svg"
+		}
+	},
+	"66":{
+		"day":{
+			"description":"Light Freezing Rain",
+			"image":"https://api.iconify.design/meteocons:extreme-day-rain-fill.svg" 
+		},
+		"night":{
+			"description":"Light Freezing Rain",
+			"image":"https://api.iconify.design/meteocons:extreme-night-rain-fill.svg" 
+		}
+	},
+	"67":{
+		"day":{
+			"description":"Freezing Rain",
+			"image":"https://api.iconify.design/meteocons:extreme-rain-fill.svg" 
+		},
+		"night":{
+			"description":"Freezing Rain",
+			"image":"https://api.iconify.design/meteocons:extreme-night-rain-fill.svg" 
+		}
+	},
+	"71":{
+		"day":{
+			"description":"Light Snow",
+			"image":"https://api.iconify.design/meteocons:snow-fill.svg"
+		},
+		"night":{
+			"description":"Light Snow",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-night-snow-fill.svg" 
+		}
+	},
+	"73":{
+		"day":{
+			"description":"Snow",
+			"image":"https://api.iconify.design/meteocons:overcast-snow-fill.svg" 
+		},
+		"night":{
+			"description":"Snow",
+			"image":"https://api.iconify.design/meteocons:overcast-night-snow-fill.svg" 
+		}
+	},
+	"75":{
+		"day":{
+			"description":"Heavy Snow",
+			"image":"https://api.iconify.design/meteocons:extreme-snow-fill.svg" 
+		},
+		"night":{
+			"description":"Heavy Snow",
+			"image":"https://api.iconify.design/meteocons:extreme-night-snow-fill.svg" 
+		}
+	},
+	"77":{
+		"day":{
+			"description":"Snow Grains",
+			"image":"https://api.iconify.design/meteocons:snowflake-fill.svg" 
+		},
+		"night":{
+			"description":"Snow Grains",
+			"image":"https://api.iconify.design/meteocons:snowflake-fill.svg" 
+		}
+	},
+	"80":{
+		"day":{
+			"description":"Light Showers",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-day-rain-fill.svg" 
+		},
+		"night":{
+			"description":"Light Showers",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-night-rain-fill.svg"
+		}
+	},
+	"81":{
+		"day":{
+			"description":"Showers",
+			"image":"https://api.iconify.design/meteocons:rain-fill.svg" 
+		},
+		"night":{
+			"description":"Showers",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-night-rain-fill.svg" 
+		}
+	},
+	"82":{
+		"day":{
+			"description":"Heavy Showers",
+			"image":"https://api.iconify.design/meteocons:overcast-rain-fill.svg" 
+		},
+		"night":{
+			"description":"Heavy Showers",
+			"image":"https://api.iconify.design/meteocons:overcast-night-rain-fill.svg" 
+		}
+	},
+	"85":{
+		"day":{
+			"description":"Light Snow Showers",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-day-snow-fill.svg" 
+		},
+		"night":{
+			"description":"Light Snow Showers",
+			"image":"https://api.iconify.design/meteocons:partly-cloudy-night-snow-fill.svg"
+		}
+	},
+	"86":{
+		"day":{
+			"description":"Snow Showers",
+			"image":"https://api.iconify.design/meteocons:overcast-snow-fill.svg"
+		},
+		"night":{
+			"description":"Snow Showers",
+			"image":"https://api.iconify.design/meteocons:overcast-night-snow-fill.svg" 
+		}
+	},
+	"95":{
+		"day":{
+			"description":"Thunderstorm",
+			"image":"https://api.iconify.design/meteocons:thunderstorms-fill.svg" 
+		},
+		"night":{
+			"description":"Thunderstorm",
+			"image":"https://api.iconify.design/meteocons:thunderstorms-night-fill.svg"
+		}
+	},
+	"96":{
+		"day":{
+			"description":"Light Thunderstorms With Hail",
+			"image":"https://api.iconify.design/meteocons:thunderstorms-overcast-fill.svg"
+		},
+		"night":{
+			"description":"Light Thunderstorms With Hail",
+			"image":"https://api.iconify.design/meteocons:thunderstorms-night-overcast-fill.svg" 
+		}
+	},
+	"99":{
+		"day":{
+			"description":"Thunderstorm With Hail",
+			"image":"https://api.iconify.design/meteocons:thunderstorms-extreme-fill.svg" 
+		},
+		"night":{
+			"description":"Thunderstorm With Hail",
+			"image":"https://api.iconify.design/meteocons:thunderstorms-night-extreme-fill.svg"
+		}
+	}
+}
+
