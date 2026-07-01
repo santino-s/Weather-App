@@ -2,4 +2,85 @@
     outline: none;
     box-shadow: none;
     border-color: inherit; 
-};
+}
+
+body {
+    background: linear-gradient(to bottom right, #2ba0ff, #0f0f3e);
+    font-family: 'Inter', sans-serif;
+}
+
+#currentLocation {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+#currentTemp {
+    font-weight: 700;
+    font-size: 4.5rem;
+    letter-spacing: -1.5px;
+    line-height: 1;
+}
+
+#currentCode {
+    font-weight: 600;
+    font-size: 1.2rem;
+    
+}
+
+.text-light {
+    text-shadow: 1px 1px 2px black;
+}
+
+.card-footer {
+    border-top: 1px solid #dee2e6;
+    font-size: 1.15rem;
+    font-weight: 600;
+
+}
+
+.btn {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.096);
+    color: white;
+}
+
+#card {
+    background-color: rgba(255, 255, 255, 0.096);
+}
+
+#header {
+    font-family: "Inter", sans-serif !important;
+    font-weight: 700;
+
+}
+
+#searchBar,
+#celsiusBtn,
+#fahrenheitBtn,
+#button-addon2 {
+    font-family: 'Inter', sans-serif !important;
+}
+
+
+#celsiusBtn,
+#fahrenheitBtn,
+#button-addon2 {
+    text-shadow: 1px 1px 2px black;
+}
+
+#celsiusBtn:hover,
+#fahrenheitBtn:hover,
+#button-addon2:hover {
+    text-shadow: none;
+}
+
+#celsiusBtn.active,
+#fahrenheitBtn.active {
+    text-shadow: none;
+}
+
+#celsiusBtn,
+#fahrenheitBtn,
+#button-addon2 {
+    transition: text-shadow 0.15s, background-color 0.15s;
+}

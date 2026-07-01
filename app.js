@@ -102,8 +102,11 @@ async function fetchData() {
 
         if (isDay === 1) {
             isDay = "day"
+            document.body.style.background = "#2ba0ff";
+            
         } else {
             isDay = "night"
+            document.body.style.background = "#0f0f3e"
         };
 
         currentCode.textContent = weatherCodesObject[weatherCode][isDay].description;
