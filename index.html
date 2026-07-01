@@ -15,15 +15,17 @@
             <h1 class="display-3 mb-5 text-center">Weather App</h1>
 
             <div class="input-group mb-4">
+                <button class="btn btn-outline-secondary active" type="button" id="celsiusBtn">C°</button>
+                <button class="btn btn-outline-secondary" type="button" id="fahrenheitBtn">F°</button>
                 <input type="text" class="form-control" id="searchBar" placeholder="Location..." aria-label="Location" aria-describedby="button-addon2">
                 <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="bi bi-geo"></i> Search</button>
             </div>
 
             <div class="card border mb-5 text-center mx-auto" style="max-width: 30rem;">
-                <img src="https://api.iconify.design/meteocons:clear-day-fill.svg" class="card-img-top" id="weatherImage" alt="" style="height: 400px; object-fit: cover;">
+                <img src="https://api.iconify.design/meteocons:clear-day-fill.svg" class="card-img-top" id="weatherImage" alt="An image of the sun." style="height: 400px; object-fit: cover;">
                 <div class="card-body py-4 d-flex flex-column align-items-center justify-content-center gap-0">
                     <h3 class="card-title m-0 pb-1 w-100 text-center" id="currentLocation">--Your City--</h3>
-                    <h1 class="card-text m-0 py-2 w-100 text-center" id="currentTemp">--° C/F</h1>
+                    <h1 class="card-text m-0 py-2 w-100 text-center" id="currentTemp">--°</h1>
                     <h5 class="card-text m-0 pt-1 w-100 text-center" id="currentCode"></h5>
                 </div>
                 <div class="card-footer">

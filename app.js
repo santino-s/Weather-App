@@ -7,9 +7,26 @@ const currentCode = document.querySelector("#currentCode");
 const currentHigh = document.querySelector("#currentHigh");
 const currentLow = document.querySelector("#currentLow");
 const weatherImg = document.querySelector("#weatherImage");
+const celsiusBtn = document.querySelector("#celsiusBtn");
+const fahrenheitBtn = document.querySelector("#fahrenheitBtn");
 
 // CREATING A VARIABLE TO STORE THE WEATHER-CODES.JSON FILE DATA (OBJECT)
 let weatherCodesObject;
+
+
+let scaleToMeasureTemp;
+
+
+fahrenheitBtn.addEventListener("click", function(){
+    fahrenheitBtn.classList.add("active");
+    celsiusBtn.classList.remove("active");
+});
+
+celsiusBtn.addEventListener("click", function(){
+    fahrenheitBtn.classList.remove("active")
+    celsiusBtn.classList.add("active");
+})
+
 
 // FETCHING THE DATA FROM THE WEATHER-CODES.JSON FILE USING ASYNC AND AWAIT
 async function fetchWeatherCodes() {
@@ -26,6 +43,11 @@ async function fetchWeatherCodes() {
 
     catch(error) {
         console.error(error)
+        currentLocation.textContent = "--Your City--";
+        currentTemp.textContent = "--° C/F";
+        currentHigh.textContent = "High /";
+        currentLow.textContent = "Low";
+        currentCode.textContent = "";
     }
 }
 
@@ -57,7 +79,13 @@ async function fetchData() {
         currentLocation.textContent = displayCity;
 
 
-        const weatherResponse = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_min,temperature_2m_max&current=temperature_2m,is_day,weather_code&timezone=auto`);
+        if (fahrenheitBtn.classList.contains("active")) {
+            scaleToMeasureTemp = "fahrenheit";
+        } else {
+            scaleToMeasureTemp = "celsius";
+        };
+
+        const weatherResponse = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&temperature_unit=${scaleToMeasureTemp}&daily=temperature_2m_min,temperature_2m_max&current=temperature_2m,is_day,weather_code&timezone=auto`);
 
         if(!weatherResponse.ok) {
             throw new Error("Could not fetch resource")
@@ -86,16 +114,15 @@ async function fetchData() {
         currentHigh.textContent = `High: ${dayHigh}°`;
         currentLow.textContent = `Low: ${dayLow}°`;
 
-        weatherImg.src = weatherCodesObject[weatherCode][isDay].image;
-
-
-
-
-    
+        weatherImg.src = weatherCodesObject[weatherCode][isDay].image;    
     }
-
     catch(error) {
-        console.error(error)
+        console.error(error);
+        currentLocation.textContent = "Error, city not found. Please try again.";
+        currentTemp.textContent = "--°";
+        currentHigh.textContent = "High /";
+        currentLow.textContent = "Low";
+        currentCode.textContent = "";
     };
 };
 
