@@ -2,6 +2,8 @@
 
 A responsive weather app built with HTML, CSS, Bootstrap, and vanilla JavaScript.
 
+🌐 **[Live Demo](https://santino-s.github.io/Weather-App/)**
+
 ## Features
 
 - Search any city worldwide by name
