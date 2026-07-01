@@ -75,7 +75,7 @@ async function fetchData() {
         const lat = geoData.results[0].latitude;
         const lon = geoData.results[0].longitude;
 
-        let displayCity = geoData.results[0].name;
+        const displayCity = geoData.results[0].name;
         currentLocation.textContent = displayCity;
 
 
@@ -102,11 +102,10 @@ async function fetchData() {
 
         if (isDay === 1) {
             isDay = "day"
-            document.body.style.background = "#2ba0ff";
-            
+            document.body.style.background = "linear-gradient(to bottom right, #2ba0ff, #0f0f3e)"
         } else {
             isDay = "night"
-            document.body.style.background = "#0f0f3e"
+            document.body.style.background = "linear-gradient(to bottom right, #0f0f3e, #2ba0ff)"
         };
 
         currentCode.textContent = weatherCodesObject[weatherCode][isDay].description;

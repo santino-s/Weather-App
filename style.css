@@ -2,6 +2,17 @@
     outline: none;
     box-shadow: none;
     border-color: inherit; 
+    text-shadow: 1px 1px 2px black;
+}
+
+#searchBar {
+    border-color: #dee2e6;
+    background-color: rgba(255, 255, 255, 0.096);
+    color: white;
+}
+
+#searchBar::placeholder {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -51,7 +62,6 @@ body {
 #header {
     font-family: "Inter", sans-serif !important;
     font-weight: 700;
-
 }
 
 #searchBar,
@@ -61,26 +71,23 @@ body {
     font-family: 'Inter', sans-serif !important;
 }
 
-
-#celsiusBtn,
-#fahrenheitBtn,
-#button-addon2 {
-    text-shadow: 1px 1px 2px black;
-}
-
 #celsiusBtn:hover,
 #fahrenheitBtn:hover,
 #button-addon2:hover {
-    text-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    color: white;
 }
 
 #celsiusBtn.active,
 #fahrenheitBtn.active {
-    text-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    color: white;
 }
 
 #celsiusBtn,
 #fahrenheitBtn,
 #button-addon2 {
     transition: text-shadow 0.15s, background-color 0.15s;
+    border: 1px solid #dee2e6;
+    text-shadow: 1px 1px 2px black;
 }
