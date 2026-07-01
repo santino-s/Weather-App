@@ -15,6 +15,10 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
+#searchBar:focus::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
 body {
     background: linear-gradient(to bottom right, #2ba0ff, #0f0f3e);
     font-family: 'Inter', sans-serif;
@@ -90,4 +94,10 @@ body {
     transition: text-shadow 0.15s, background-color 0.15s;
     border: 1px solid #dee2e6;
     text-shadow: 1px 1px 2px black;
+}
+
+#searchBar:-webkit-autofill,
+#searchBar:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0.096) inset !important;
+    -webkit-text-fill-color: white !important;
 }
