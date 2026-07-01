@@ -5,10 +5,12 @@ A responsive weather app built with HTML, CSS, Bootstrap, and vanilla JavaScript
 ## Features
 
 - Search any city worldwide by name
-- Displays current temperature in Celsius
+- Displays current temperature in Celsius or Fahrenheit via a toggle
 - Animated weather icons powered by [Meteocons](https://meteocons.com/) via the Iconify CDN, with day and night variants
 - Weather condition description (e.g. Sunny, Partly Cloudy, Heavy Rain) sourced from a local JSON lookup table mapped to WMO weather codes
 - Daily high and low temperatures
+- Background gradient shifts based on time of day at the searched location
+- UI error messages for invalid or unrecognised city searches
 
 ## Built With
 
@@ -24,10 +26,7 @@ A responsive weather app built with HTML, CSS, Bootstrap, and vanilla JavaScript
 3. Those coordinates are passed to the Open-Meteo Forecast API to fetch current conditions and daily high/low
 4. A local `weather-codes.json` file maps the returned WMO weather code to a description and the appropriate Meteocons icon, with day/night variants determined by the `is_day` field
 
-## Planned / In Progress
+## Known Limitations
 
-- Fahrenheit / Celsius toggle
-- Visible error message in the UI if the API fails to fetch (network error or bad response)
-- Background color changes based on time of day
-- Visible error messages in the UI for invalid or unrecognised city searches
-- General styling polish — fonts, colors, finishing touches
+- Celsius/Fahrenheit toggle requires a new search to apply — does not convert already-displayed data in real time
+- City disambiguation not supported — searches return the most populated result when multiple cities share a name (e.g. Springfield or Richmond)
